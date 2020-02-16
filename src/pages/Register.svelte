@@ -10,7 +10,7 @@
       err = "plz check username and password";
       return;
     }
-    let res = await fetch("http://localhost:1234/api/user", {
+    let res = await fetch("https://test00207.herokuapp.com/api/user", {
       method: "จะส่งขึ้นใช้ไรอ่า",
       body: JSON.stringify({ username, password }),
       headers: {
